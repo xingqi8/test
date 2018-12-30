@@ -26,4 +26,7 @@ git commit --all -m "添加的一些说明"        （--all表示将所有文件
 git reset --hard head~0      0是回退到上一个版本;1是上上一个以此类推
 git reset --hard head^       也可以这样写^符号的数量表示回退的次数与上一个命令类似
 利用版本号回退：
-git reset --hard （版本号）
+git reset --hard [版本号]
+
+7、查看命令历史记录
+git reflog           //查看以前执行的所有git命令
