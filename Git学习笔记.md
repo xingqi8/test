@@ -10,3 +10,10 @@ git config --global user.email XXXXX
 git init
 
 3、具体使用的命令
+(1)添加文件到仓库
+git add "文件名称"  （注意文件的路径）
+(2)提交文件到仓库
+git commit -m "对提交的文件进行一个说明介绍"
+
+4、查看当前仓库的状态
+git status
