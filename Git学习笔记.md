@@ -30,3 +30,6 @@ git reset --hard [版本号]
 
 7、查看命令历史记录
 git reflog           //查看以前执行的所有git命令
+
+8、创建分支，再属于自己的分支上去开发项目
+git branch [分支名称]
