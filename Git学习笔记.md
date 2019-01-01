@@ -59,3 +59,8 @@ eg：git pull https://github.com/xingqi8/test.git master
 git clone [远程仓库的地址]             ----这会直接将远程仓库的所有数据克隆到本地，一般第一次都会用此命令
 eg：git clone https://github.com/xingqi8/test.git   
 注：多次执行此命令的话会覆盖本地的数据内容
+
+13、通过ssh的方式来上传代码(之前远程仓库都使用的是HTTPS的方式，需要验证用户名和密码)
+1)首先创建公钥和私钥：
+ssh-keygen -t rsa -C "zhoubanet@163.com"
+2)将生成的公钥添加到远程仓库的ssh白名单即可后续操作
