@@ -64,3 +64,6 @@ eg：git clone https://github.com/xingqi8/test.git
 1)首先创建公钥和私钥：
 ssh-keygen -t rsa -C "zhoubanet@163.com"
 2)将生成的公钥添加到远程仓库的ssh白名单即可后续操作
+
+14、团队协作相关要注意的要点和地方
+在和远程仓库进行pull和push的时候应该先pull再push，因为有时候远程仓库所提交的和本地有冲突，应该先pull拉取到本地后，做相应的修改后再push。
