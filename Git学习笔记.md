@@ -54,4 +54,8 @@ eg：git push https://github.com/xingqi8/test.git master
 拉取远程仓库：
 git pull [GitHub的仓库地址] master    ----将指定仓库地址的master分支拉取到本地
 eg：git pull https://github.com/xingqi8/test.git master
-注：拉取之前必须初始化仓库
+注：拉取之前本地必须初始化一个仓库
+克隆远程仓库的命令：
+git clone [远程仓库的地址]             ----这会直接将远程仓库的所有数据克隆到本地，一般第一次都会用此命令
+eg：git clone https://github.com/xingqi8/test.git   
+注：多次执行此命令的话会覆盖本地的数据内容
