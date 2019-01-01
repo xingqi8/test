@@ -46,3 +46,12 @@ git checkout [分支名称]
 
 11、分支的删除命令
 git branch -d [分支名称]
+
+12、远程仓库的运用
+GitHub远程仓库的运用，将本地项目发布到GitHub对应的仓库命令：
+git Push [GitHub的仓库地址] master    ----将当前分支推送到远程仓库的master分支
+eg：git push https://github.com/xingqi8/test.git master 
+拉取远程仓库：
+git pull [GitHub的仓库地址] master    ----将指定仓库地址的master分支拉取到本地
+eg：git pull https://github.com/xingqi8/test.git master
+注：拉取之前必须初始化仓库
