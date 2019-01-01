@@ -73,4 +73,5 @@ git remote add origin [git仓库的地址]
 eg：git remote add origin git@github.com:xingqi8/test.git     ----这条命令相当于将git仓库的地址用origin来代替，在push和pull的时候就可以将git仓库的地址换成origin
 
 16、将本地分支和远程分支进行关联
-git push origin -u master
+git push origin -u master           ---执行完关联命令后再次进行push和pull只需要执行git pull 或者 git push命令即可。
+解释：加上-u参数之后，git会将当前的分支和指定远程仓库的分支进行关联
