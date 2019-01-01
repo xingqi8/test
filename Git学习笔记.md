@@ -67,3 +67,7 @@ ssh-keygen -t rsa -C "zhoubanet@163.com"
 
 14、团队协作相关要注意的要点和地方
 在和远程仓库进行pull和push的时候应该先pull再push，因为有时候远程仓库所提交的和本地有冲突，应该先pull拉取到本地后，做相应的修改后再push。
+
+15、添加远程仓库的命令
+git remote add origin [git仓库的地址]
+eg：git remote add origin git@github.com:xingqi8/test.git     ----这条命令相当于将git仓库的地址用origin来代替，在push和pull的时候就可以将git仓库的地址换成origin
